@@ -113,6 +113,8 @@ pub enum Dialog {
     Protect,
     /// Set Page Boxes (crop, trim, bleed, art, media).
     PageBoxes,
+    /// Bulk Crop (blended, odd/even, page-by-page).
+    BulkCrop,
     /// Add / Update Header and Footer, Watermark, Background.
     Marks(pdfcraft_engine::MarkKind),
     /// Export a PDF ▸ Image / Text.

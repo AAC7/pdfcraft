@@ -218,6 +218,7 @@ impl PdfCraftApp {
             pending_remote_link: None,
             protect_draft: Default::default(),
             boxes_draft: Default::default(),
+            bulk_crop_draft: Default::default(),
             marks_draft: Default::default(),
             export_draft: Default::default(),
             export_status: None,
